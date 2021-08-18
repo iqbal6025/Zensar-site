@@ -1,0 +1,122 @@
+.container1{
+    width:1280px;
+    display:flex;
+    flex-direction: column;
+    margin-left:20px;
+    
+}
+
+.container1 div{
+   
+    padding:10px;
+    
+}
+
+.navbar{
+   display: flex;
+   justify-content: space-between;
+   background-color: wheat;
+   font-size: 20px;
+}
+
+.logo{
+   width:200px;
+   
+}
+.zensarlogo{
+    height:50px;
+    box-shadow: 2px 2px 2px grey;
+    border-radius: 8px;
+}
+.dropdown{
+   width:50%;
+   text-align: center;
+}
+.button{
+
+}
+
+
+.main{
+    display:flex;
+    flex-direction: column;
+    width:92%;
+    margin-left:35px;
+    margin-top:2px;
+}
+.main div{
+    
+}
+
+.first{
+   text-align: center;
+   margin:2px;
+}
+#company{
+    position: relative;
+    top:300px;
+    color:white;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+}
+.zensar{
+    height:400px;
+    width:100%;
+}
+.second{
+    text-align: center;
+    margin:2px;
+    display:flex;
+    justify-content:center;
+}
+.para{
+   text-align: justify;
+}
+.img{
+    
+}
+
+#global{
+    width:400px;
+    height:300px;
+}
+#global-w{
+    
+}
+.bottom{
+    display: flex;
+    justify-content: center;
+    margin:2px;
+}
+
+.footer{
+  display:flex;
+  justify-content: space-between;   
+  background-color: grey;
+}
+.icon{
+
+}
+.icon i{
+    margin-top:5px;
+    margin-right:10px;
+    margin-left:5px;
+}
+.detail{
+  display:flex;
+}
+.contact a,.about a{
+    color:black;
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+
+table,thead,tbody,th,td{
+    border:1px solid green;
+    border-collapse: collapse;
+    padding:10px;
+    padding-left:20px;
+    padding-right:20px;
+}
